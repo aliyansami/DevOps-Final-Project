@@ -24,8 +24,7 @@ jobs:
           node-version: 12
 
       - name: Install dependencies
-        run: |
-          cd backend
+        run: 
           npm install 
 
       # - name: Build Backend
@@ -34,8 +33,7 @@ jobs:
       #     npm run dev &
         
       - name: Build Frontend
-        run: |
-          cd frontend
+        run: 
           npm start &
 
       # - name: Install ESLint
